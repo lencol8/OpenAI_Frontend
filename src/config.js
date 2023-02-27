@@ -1,6 +1,6 @@
 const dev = {
-  baseURL: 'https://nutty-woolens-lamb.cyclic.app/api/',
-  landingPageUrl: 'https://nutty-woolens-lamb.cyclic.app',
+  baseURL: 'http://localhost:3080/api/',
+  landingPageUrl: 'http://localhost:3080',
   stripe: {
     free: 'price_1JcQD6HIZYvvnKladKayEvOZ',
     entry: 'price_1JL68HHIZYvvnKlaBJWS5uDe',
@@ -9,8 +9,8 @@ const dev = {
 }
 
 const prod = {
-  baseURL: '/api/',
-  landingPageUrl: 'https://app.openaitemplate.com',
+  baseURL: 'https://nutty-woolens-lamb.cyclic.app/api/',
+  landingPageUrl: 'https://nutty-woolens-lamb.cyclic.app',
   stripe: {
     free: 'price_1JcQsUHIZYvvnKlaEPy958NF',
     entry: 'price_1JLpWpHIZYvvnKlaHxiCr7Js',
