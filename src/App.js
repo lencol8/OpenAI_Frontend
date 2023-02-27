@@ -32,8 +32,6 @@ if (!window.store) {
   window.store = new AppStore()
 }
 
-console.log('ENV:', process.env.NODE_ENV)
-console.log('CONFIG:', config.baseURL)
 @observer
 class App extends Component {
   render() {
